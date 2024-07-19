@@ -1,0 +1,89 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    list-style-type: none;
+    color:black;
+}
+nav ul li:hover{
+    color: red;
+    text-decoration: underline;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 14px;
+}
+button:hover{
+    background-color: blue;
+}
+.sec-1
+{
+    background-color: white;
+    box-shadow: -3px 13px 14px 18px rgba(194,177,177,0.75);
+    width: 90%;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.sec-1 h1{
+    font-size: 90px;
+}
+.subsec-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subsec-1 ul li{
+    list-style-type: none;
+}
+.subsec-2 ,.subsec-3,.subsec-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subsec-2 ul li,.subsec-3 ul li,.subsec-4 ul li{
+    list-style-type: none;
+}
+.main-sec{
+    display: flex;
+    justify-content: space-between;
+}
+.main-sec .reduced-image{
+    height: 50px;
+    width: 50px;
+}
+.sec-2{
+    margin-left: 5%;
+    margin-top: 10%;
+    justify-content: center;
+}
+.sec-3 nav button{
+    color: black;
+    background-color: rgb(238,233,233);
+    border-radius: 5px;
+    margin-bottom: 80px;
+    text-decoration: none;
+    padding: 5px;
+    font-size: large;
+    font-weight:bold;
+    margin-left: 47.5%;
+    border: 0px; 
+}
+.sec-4 h2{
+    text-align: center;
+}
+.sec-5{
+    margin-left: 5%;
+}
